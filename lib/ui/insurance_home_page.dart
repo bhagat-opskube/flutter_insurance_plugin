@@ -36,8 +36,8 @@ class _InsuranceHomeScreenState extends State<InsuranceHomeScreen> {
                     children: <Widget>[
                       Padding(
                           padding:  EdgeInsets.all(size_8),
-                          child: SvgPicture.asset("assets/images/hotel_1.svg",width: size_100,height: size_100,package: "flutter_insurance_plugin",)),
-                      Text("Welcome to Hotel",style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: size_18),),
+                          child: SvgPicture.asset("assets/images/insurance.svg",width: size_100,height: size_100,package: "flutter_insurance_plugin",)),
+                      Text("Welcome to Insurance",style: Theme.of(context).textTheme.bodyText1!.copyWith(fontSize: size_18),),
                     ],
                   ),
                 ),

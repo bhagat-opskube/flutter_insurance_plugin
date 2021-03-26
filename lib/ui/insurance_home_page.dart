@@ -4,14 +4,14 @@ import 'package:flutter_insurance_plugin/navigation/navigator_help.dart';
 import 'package:flutter_insurance_plugin/responsive/my_size.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class HotelHomeScreen extends StatefulWidget {
-  HotelHomeScreen({Key? key}):super(key:key);
+class InsuranceHomeScreen extends StatefulWidget {
+  InsuranceHomeScreen({Key? key}):super(key:key);
 
   @override
-  _HotelHomeScreenState createState() => _HotelHomeScreenState();
+  _InsuranceHomeScreenState createState() => _InsuranceHomeScreenState();
 }
 
-class _HotelHomeScreenState extends State<HotelHomeScreen> {
+class _InsuranceHomeScreenState extends State<InsuranceHomeScreen> {
 
 
   @override
